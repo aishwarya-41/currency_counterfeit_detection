@@ -26,14 +26,14 @@ This directory contains the implementation of Variant 1, an end-to-end deep lear
 
 # Setup and Execution
 1. Prerequisites
-  - Before running, ensure you have set up the main dataset folder inside this directory as described in the root README.md of the project.
+   - Before running, ensure you have set up the main dataset folder inside this directory as described in the root README.md of the project.
 
 2. Install Dependencies
-  - Open a terminal in this directory and install the required Python libraries.
+   - Open a terminal in this directory and install the required Python libraries.
 
 3. Run the Training and Evaluation
-  - Execute the main script from your terminal. This single command will handle data preparation, model training, and final testing.
-  - python main.py
+    - Execute the main script from your terminal. This single command will handle data preparation, model training, and final testing.
+    - python main.py
 
 # Results and Evaluation
 
@@ -51,6 +51,7 @@ The detailed performance on the test set is shown below. The model shows a high 
 The confusion matrix provides a visual representation of the model's performance. It shows that the model correctly identified 340 out of 358 genuine notes and 256 out of 358 synthetic fakes.
 
 <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/92c8ec4a-88e4-43d7-95bf-890a64b72593" />
+
 
 
 
