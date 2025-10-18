@@ -20,34 +20,34 @@ This project is organized into three separate directories, each containing a sel
 
 # Setup Instructions:
 - Click the download link above and download the dataset zip file.
-- 
+
 - Extract the contents of the downloaded zip file. You should have a folder (likely named dataset or similar) containing subfolders for each denomination. Ensure the main folder containing the denomination subfolders is named dataset.
 
 - Copy (or move) this entire dataset folder into each of the variant directories (Variant_1_CBAM_CNN, Variant_2_Transfer_Learning_ML, and Variant_3_Hybrid_Model).
 
 - The final structure should look like this:
 
-<project_root>/
-├── CBAM_Attention/
-│   ├── dataset/
-│   │   ├── 10/
-│   │   └── ...
-│   ├── main.py
-│   └── ...
-│
-├── MobileNet_MLBased/
-│   ├── dataset/
-│   │   ├── 10/
-│   │   └── ...
-│   ├── 1_extract_features.py
-│   └── ...
-│
-└── Hybrid_Variant/
-    ├── dataset/
-    │   ├── 10/
-    │   └── ...
-    ├── 1_extract_hybrid_features.py
-    └── ...
+<project_root>/ <br>
+├── CBAM_Attention/  <br>
+│   ├── dataset/  <br>
+│   │   ├── 10/  <br>
+│   │   └── ...  <br>
+│   ├── main.py  <br>
+│   └── ...  <br>
+│  <br>
+├── MobileNet_MLBased/  <br>
+│   ├── dataset/  <br>
+│   │   ├── 10/  <br>
+│   │   └── ...  <br>
+│   ├── 1_extract_features.py  <br>
+│   └── ...  <br>
+│  <br>
+└── Hybrid_Variant/  <br>
+    ├── dataset/  <br>
+    │   ├── 10/  <br>
+    │   └── ...  <br>
+    ├── 1_extract_hybrid_features.py  <br>
+    └── ...  <br>
 
 
 # How to Use
