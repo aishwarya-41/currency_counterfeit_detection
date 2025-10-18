@@ -43,11 +43,6 @@ This directory contains the implementation of Variant 2, a high-performance coun
 - Once the feature extraction is complete, run the second script. This step is much faster.
 - python 2_train_classifiers.py
 
-Of course. Based on the excellent results you've shared for your second variant, I will create a detailed README.md in the same professional format as the first one.
-
-This README will clearly explain the two-stage transfer learning approach, provide step-by-step instructions, and showcase the comparative results of all the machine learning models, highlighting SVM as the top performer.
-
-Here is the complete README.md file, ready to be placed in your Variant_2_Transfer_Learning_ML directory.
 
 # Results and Evaluation
 - This approach yielded outstanding results, with all classifiers achieving over 98% accuracy. The Support Vector Machine (SVM) was the top-performing model, achieving a near-perfect accuracy of 98.74%.
@@ -62,4 +57,5 @@ Here is the complete README.md file, ready to be placed in your Variant_2_Transf
 # Confusion Matrix for Best Model: SVM
 - The confusion matrix visually confirms the model's high accuracy. It shows that out of 358 genuine notes, all 358 were correctly identified. Out of 358 counterfeit notes, 349 were correctly identified, with only 9 misclassifications.
 <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/01737c4d-1cf2-46e4-b409-42926a69fe3b" />
+
 
