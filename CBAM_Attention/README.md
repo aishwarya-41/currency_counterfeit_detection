@@ -21,6 +21,9 @@ This directory contains the implementation of Variant 1, an end-to-end deep lear
   1. attention.py: Implements the ChannelAttention and SpatialAttention modules that form the CBAM block.
   2. cnn_with_cbam.py: Defines the main CNNWithCBAM class, which assembles the convolutional layers and integrates the attention modules.
 
+- saved_models/: This directory is automatically created to store the weights of the best-performing model during training. The final model is saved as best_synthetic_model.pth.
+
+
 # Setup and Execution
 1. Prerequisites
 - Before running, ensure you have set up the main dataset folder inside this directory as described in the root README.md of the project.
@@ -47,10 +50,5 @@ Confusion Matrix
 
 The confusion matrix provides a visual representation of the model's performance. It shows that the model correctly identified 340 out of 358 genuine notes and 256 out of 358 synthetic fakes.
 
-<img width="1526" height="1164" alt="image" src="https://github.com/user-attachments/assets/92c8ec4a-88e4-43d7-95bf-890a64b72593" />
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/92c8ec4a-88e4-43d7-95bf-890a64b72593" />
 
-
-
-saved_models/: This directory is automatically created to store the weights of the best-performing model during training. The final model is saved as best_synthetic_model.pth.
-
-requirements.txt: A text file listing all the Python libraries and dependencies required to run the project.
