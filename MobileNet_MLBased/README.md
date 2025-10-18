@@ -24,20 +24,20 @@ This directory contains the implementation of Variant 2, a high-performance coun
 
 # Setup and Execution
 1. Prerequisites
-- Before running, ensure you have set up the main dataset folder inside this directory as described in the root README.md of the project.
+    - Before running, ensure you have set up the main dataset folder inside this directory as described in the root README.md of the project.
 
 2. Install Dependencies
-- Open a terminal in this directory and install the required Python libraries.
-- pip install -r requirements.txt
+    - Open a terminal in this directory and install the required Python libraries.
+    - pip install -r requirements.txt
 
 3. Step 1: Extract Features
-- Run the first script to process all images and generate the feature files. This step will take the most time as it involves the deep learning model.
-- python 1_extract_features.py
-- This will create a new folder named features/ in your directory.
+    - Run the first script to process all images and generate the feature files. This step will take the most time as it involves the deep learning model.
+    - python 1_extract_features.py
+    - This will create a new folder named features/ in your directory.
 
 4. Step 2: Train and Compare Classifiers
-- Once the feature extraction is complete, run the second script. This step is much faster.
-- python 2_train_classifiers.py
+    - Once the feature extraction is complete, run the second script. This step is much faster.
+    - python 2_train_classifiers.py
 
 
 # Results and Evaluation
@@ -55,6 +55,7 @@ The SVM model demonstrated exceptional performance, correctly classifying almost
 The confusion matrix visually confirms the model's high accuracy. It shows that out of 358 genuine notes, all 358 were correctly identified. Out of 358 counterfeit notes, 349 were correctly identified, with only 9 misclassifications.
 
 <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/01737c4d-1cf2-46e4-b409-42926a69fe3b" />
+
 
 
 
