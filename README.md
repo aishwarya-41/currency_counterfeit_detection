@@ -23,12 +23,7 @@ This project is organized into three separate directories, each containing a sel
 
 - Extract the contents of the downloaded zip file. You should have a folder (likely named dataset or similar) containing subfolders for each denomination. Ensure the main folder containing the denomination subfolders is named dataset.
 
-- Copy (or move) this entire dataset folder into each of the variant directories (Variant_1_CBAM_CNN, Variant_2_Transfer_Learning_ML, and Variant_3_Hybrid_Model).
-
-- The final structure should look like this:
-
-<img width="400" height="600" alt="image" src="https://github.com/user-attachments/assets/082a6eb8-e5ba-4560-a902-376cd7c84604" />
-
+- Copy (or move) this entire dataset folder into each of the variant directories.
 
 
 # How to Use
