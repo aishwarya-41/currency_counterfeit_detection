@@ -48,11 +48,14 @@ This directory contains the implementation of Variant 2, a high-performance coun
 
 # Detailed Report for Best Model: SVM
 The SVM model demonstrated exceptional performance, correctly classifying almost every note in the test set.
+
 <img width="600" height="350" alt="image" src="https://github.com/user-attachments/assets/40ffd0b5-c6e7-4c4a-b66d-098ee471d5c8" />
 
 # Confusion Matrix for Best Model: SVM
 The confusion matrix visually confirms the model's high accuracy. It shows that out of 358 genuine notes, all 358 were correctly identified. Out of 358 counterfeit notes, 349 were correctly identified, with only 9 misclassifications.
+
 <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/01737c4d-1cf2-46e4-b409-42926a69fe3b" />
+
 
 
 
