@@ -27,27 +27,8 @@ This project is organized into three separate directories, each containing a sel
 
 - The final structure should look like this:
 
-<project_root>/ <br>
-├── CBAM_Attention/  <br>
-│   ├── dataset/  <br>
-│   │   ├── 10/  <br>
-│   │   └── ...  <br>
-│   ├── main.py  <br>
-│   └── ...  <br>
-│  <br>
-├── MobileNet_MLBased/  <br>
-│   ├── dataset/  <br>
-│   │   ├── 10/  <br>
-│   │   └── ...  <br>
-│   ├── 1_extract_features.py  <br>
-│   └── ...  <br>
-│  <br>
-└── Hybrid_Variant/  <br>
-    ├── dataset/  <br>
-    │   ├── 10/  <br>
-    │   └── ...  <br>
-    ├── 1_extract_hybrid_features.py  <br>
-    └── ...  <br>
+<img width="730" height="878" alt="image" src="https://github.com/user-attachments/assets/082a6eb8-e5ba-4560-a902-376cd7c84604" />
+
 
 
 # How to Use
@@ -67,5 +48,4 @@ This project is organized into three separate directories, each containing a sel
 - OpenCV
 - Pandas
 - Matplotlib & Seaborn
-
-XGBoost & CatBoost
+- XGBoost & CatBoost
