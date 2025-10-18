@@ -20,21 +20,21 @@ This directory contains the implementation of Variant 3, a sophisticated hybrid 
 
 # Setup and Execution
 1. Prerequisites
-  - Before running, ensure you have set up the main dataset folder inside this directory as described in the root README.md of the project.
+   - Before running, ensure you have set up the main dataset folder inside this directory as described in the root README.md of the project.
 
 2. Install Dependencies
-  - Open a terminal in this directory and install the required Python libraries.
-  - pip install -r requirements.txt
+    - Open a terminal in this directory and install the required Python libraries.
+    - pip install -r requirements.txt
 
 
 3. Step 1: Extract Hybrid Features
-  - Run the first script to process all images and generate the feature files. This is the most computationally intensive step.
-  - python 1_extract_hybrid_features.py
-  - This will create a new folder named features/ in your directory.
+    - Run the first script to process all images and generate the feature files. This is the most computationally intensive step.
+    - python 1_extract_hybrid_features.py
+    - This will create a new folder named features/ in your directory.
 
 4. Step 2: Train and Compare Classifiers
-  - Once the feature extraction is complete, run the second script. This step is much faster.
-  - python 2_train_ensemble_classifiers.py
+    - Once the feature extraction is complete, run the second script. This step is much faster.
+    - python 2_train_ensemble_classifiers.py
 
 # Results and Evaluation
 This hybrid approach produced a highly balanced model. The final Ensemble (Hard Vote) classifier was the top performer, achieving a solid overall accuracy of 70.11%.
