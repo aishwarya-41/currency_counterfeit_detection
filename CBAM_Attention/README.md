@@ -46,9 +46,10 @@ The detailed performance on the test set is shown below. The model shows a high 
 <img width="600" height="350" alt="image" src="https://github.com/user-attachments/assets/9c79ebdc-9566-4052-a3d2-05efa6a84b3f" />
 
 
-Confusion Matrix
+# Confusion Matrix
 
 The confusion matrix provides a visual representation of the model's performance. It shows that the model correctly identified 340 out of 358 genuine notes and 256 out of 358 synthetic fakes.
 
 <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/92c8ec4a-88e4-43d7-95bf-890a64b72593" />
+
 
