@@ -1,4 +1,4 @@
-# Advanced Counterfeit Currency Detection using AI
+# Advanced Counterfeit Currency Detection 
 This repository contains the implementation for the project "Advanced Counterfeit Currency Detection," which explores and compares multiple deep learning and machine learning approaches for identifying counterfeit banknotes. The project is structured into three distinct "variants," each representing a unique methodology for tackling this challenge.
 
 # Abstract
@@ -15,7 +15,7 @@ This project is organized into three separate directories, each containing a sel
 
 # Dataset Setup 
 - Due to its large size, the image dataset used for this project is not included in this GitHub repository. You must download it manually. The scripts in each variant folder expect a local copy of the dataset.
-- Dataset: Banknote Dataset (from Mendeley Data)
+- Dataset: Indian Currency Dataset (from Mendeley Data)
 - Download Link: https://data.mendeley.com/datasets/8ckhkssyn3/1
 
 # Setup Instructions:
