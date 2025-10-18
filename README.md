@@ -27,7 +27,7 @@ This project is organized into three separate directories, each containing a sel
 
 - The final structure should look like this:
 
-<img width="730" height="878" alt="image" src="https://github.com/user-attachments/assets/082a6eb8-e5ba-4560-a902-376cd7c84604" />
+<img width="400" height="600" alt="image" src="https://github.com/user-attachments/assets/082a6eb8-e5ba-4560-a902-376cd7c84604" />
 
 
 
