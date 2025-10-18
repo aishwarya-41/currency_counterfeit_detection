@@ -4,14 +4,10 @@ This directory contains the implementation of Variant 2, a high-performance coun
 # Overview
 - The core strategy of this variant is to leverage transfer learning. Instead of training a deep learning model from scratch, we use MobileNetV2, a state-of-the-art model pre-trained on millions of diverse images from the ImageNet dataset. MobileNetV2 acts as an expert "feature extractor," converting each banknote image into a highly informative numerical signature (a feature vector) that captures its essential patterns and textures.
 - These rich feature vectors are then used to train a suite of powerful and efficient machine learning classifiers:
-
-1. Random Forest
-
-2. Support Vector Machine (SVM)
-
-3. XGBoost
-
-4. CatBoost
+    1. Random Forest
+    2. Support Vector Machine (SVM)
+    3. XGBoost
+    4. CatBoost
 
 - This two-stage process is highly effective because it separates the complex task of visual understanding from the final classification, often leading to superior accuracy and faster training times for the final classifiers.
 
@@ -48,14 +44,15 @@ This directory contains the implementation of Variant 2, a high-performance coun
 - This approach yielded outstanding results, with all classifiers achieving over 98% accuracy. The Support Vector Machine (SVM) was the top-performing model, achieving a near-perfect accuracy of 98.74%.
 - Performance Comparison of Ensemble Classifiers: The table below shows the performance of each classifier on the unseen test set.
 
-  <img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/e58c785d-8c44-4c4c-b128-6d9f52d7bc3e" />
+<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/e58c785d-8c44-4c4c-b128-6d9f52d7bc3e" />
 
 # Detailed Report for Best Model: SVM
-- The SVM model demonstrated exceptional performance, correctly classifying almost every note in the test set.
+The SVM model demonstrated exceptional performance, correctly classifying almost every note in the test set.
 <img width="600" height="350" alt="image" src="https://github.com/user-attachments/assets/40ffd0b5-c6e7-4c4a-b66d-098ee471d5c8" />
 
 # Confusion Matrix for Best Model: SVM
-- The confusion matrix visually confirms the model's high accuracy. It shows that out of 358 genuine notes, all 358 were correctly identified. Out of 358 counterfeit notes, 349 were correctly identified, with only 9 misclassifications.
+The confusion matrix visually confirms the model's high accuracy. It shows that out of 358 genuine notes, all 358 were correctly identified. Out of 358 counterfeit notes, 349 were correctly identified, with only 9 misclassifications.
 <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/01737c4d-1cf2-46e4-b409-42926a69fe3b" />
+
 
 
