@@ -44,3 +44,7 @@ This project is organized into three separate directories, each containing a sel
 - Pandas
 - Matplotlib & Seaborn
 - XGBoost & CatBoost
+
+# Authors
+- Aishwarya A 
+- Ashwathi N (https://github.com/Ashwathi-Nandhakumar)
