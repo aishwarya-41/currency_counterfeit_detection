@@ -47,4 +47,4 @@ This project is organized into three separate directories, each containing a sel
 
 # Authors
 - Aishwarya A 
-- Ashwathi N (https://github.com/Ashwathi-Nandhakumar)
+- Ashwathi Nandhakumar (https://github.com/Ashwathi-Nandhakumar)
